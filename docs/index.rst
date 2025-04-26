@@ -1,5 +1,6 @@
-Template Device for Labscript
-=============================
+VISA
+====================
+
 README
 ------
 .. include:: ../README.md
@@ -8,24 +9,24 @@ README
 API Documentation
 -----------------
 
-.. automodule:: naqs_devices.TemplateDevice.labscript_devices
+.. automodule:: naqs_devices.VISA.labscript_devices
    :members:
    :undoc-members:
    :show-inheritance:
 
    
-.. automodule:: naqs_devices.TemplateDevice.blacs_tabs
+.. automodule:: naqs_devices.VISA.blacs_tabs
    :members:
    :undoc-members:
    :show-inheritance:
 
    
-.. automodule:: naqs_devices.TemplateDevice.blacs_workers
+.. automodule:: naqs_devices.VISA.blacs_workers
    :members:
    :undoc-members:
    :show-inheritance:
    
-.. automodule:: naqs_devices.TemplateDevice.runviewer_parsers
-   :members:
-   :undoc-members:
-   :show-inheritance:
+.. .. automodule:: naqs_devices.VISA.runviewer_parsers
+..    :members:
+..    :undoc-members:
+..    :show-inheritance:
