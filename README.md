@@ -10,17 +10,16 @@
     ├── README.md
     ├── LICENSE.txt
     ├── CITATION.cff
-    ├── naqs_devices/ # note: must be same as in the parent naqs_devices repo to be in the same namespace
-    │   └── VISA/
-    │       ├── __init__.py
-    │       ├── register_classes.py
-    │       ├── labscript_devices.py
-    │       ├── blacs_tabs.py
-    │       ├── blacs_workers.py
-    │       └── runviewer_parsers.py
-    └── docs/
-        └── index.rst
-
+    ├── docs/
+    │   └── index.rst
+    └── src/naqs_devices/ # note: must be same as in the parent naqs_devices repo to be in the same namespace
+        └── VISA/
+            ├── __init__.py
+            ├── blacs_tabs.py
+            ├── blacs_workers.py
+            ├── labscript_devices.py
+            ├── register_classes.py
+            └── runviewer_parsers.py
 ```
 
 ## Usage
