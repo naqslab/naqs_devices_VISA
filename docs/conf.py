@@ -12,6 +12,7 @@
 #
 import os
 import sys
+import importlib.metadata
 sys.path.insert(0, os.path.abspath('..'))
 
 
@@ -21,18 +22,12 @@ project = 'naqs_devices_VISA'
 copyright = '2025, naqslab'
 author = 'naqslab'
 
-# The full version, including alpha/beta/rc tags
-# from naqs_devices.Helpers import __version__
-# # short version
-# version = __version__
-# # long version
-# release = version
+version = importlib.metadata.version('naqs_devices_VISA')
+# long version
+release = version
 
-# # get version into rst files
-# rst_epilog = '.. |version| replace:: %s' % version
-
-# hard coding version
-version = '0.1.0'
+# get version into rst files
+rst_epilog = '.. |version| replace:: %s' % version
 
 # -- General configuration ---------------------------------------------------
 

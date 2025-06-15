@@ -11,8 +11,4 @@
 #                                                                   #
 #####################################################################
 
-# from labscript_devices import deprecated_import_alias
-
-
-# # For backwards compatibility with old experiment scripts:
-# VISA = deprecated_import_alias("naqslab_devices.VISA.labscript_device.VISA")
+__version__ = '0.1.0'
