@@ -5,6 +5,12 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools]
 zip-safe = false
 include-package-data = true
+packages = [
+    "stb_status"
+]
+
+[tool.setuptools.package-data]
+stb_status = ["./src/naqs_devices/VISA/STBstatus.ui"]
 
 [tool.setuptools.package-dir]
 "naqs_devices" = "./src/naqs_devices"
