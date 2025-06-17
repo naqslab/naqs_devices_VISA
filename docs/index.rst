@@ -1,6 +1,12 @@
 VISA
 ====================
 
+.. toctree::
+   :maxdepth: 2
+
+   VISA
+   Other naqs_devices <https://naqs-devices.readthedocs.io/en/latest/devices/>
+
 README
 ------
 .. include:: ../README.md
@@ -26,7 +32,3 @@ API Documentation
    :undoc-members:
    :show-inheritance:
    
-.. .. automodule:: naqs_devices.VISA.runviewer_parsers
-..    :members:
-..    :undoc-members:
-..    :show-inheritance:
