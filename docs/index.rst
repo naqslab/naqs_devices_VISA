@@ -4,7 +4,6 @@ VISA
 .. toctree::
    :maxdepth: 2
 
-   VISA
    Other naqs_devices <https://naqs-devices.readthedocs.io/en/latest/devices/>
 
 README
